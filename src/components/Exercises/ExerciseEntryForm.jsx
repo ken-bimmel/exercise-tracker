@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { addNewExercise } from "../../services/storage";
 
-function ExerciseEntryForm(props) {
+function ExerciseEntryForm() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [trackWeight, setTrackWeight] = useState(true);
